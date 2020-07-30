@@ -2,14 +2,16 @@
 
 ### Create new decorator
 
-*  Add the named parameter **"introduce"** (with the default value **` False `**), in the internal function
+* The decorator should be named "optional_introduce"
 
-*  The decorator function does not interfere with the work of the internal function until the function is called by the **"introduce"** parameter with the value **"True"**
+* Add the named parameter ***"introduce"*** (with the default value **` False `**), in the internal function
 
-*  If the internal function was called with the **` introduce = True `** parameter, then this function, before returning the result, must be say its **"Name"**
+* The decorator function does not interfere with the work of the internal function until the function is called by the ***"introduce"*** parameter with the value ***"True"***
 
-<a href="https://gist.github.com/a893e0d26bb12c262a495e49a59c091d"> Example from the lesson </a>
+* If the internal function was called with the **` introduce = True `** parameter, then this function, before returning the result, must be say its ***"Name"****
 
-<a href="https://stepik.org/lesson/63305/step/14"> Link to the interactive version of the task </a>
+1. <a href="https://gist.github.com/a893e0d26bb12c262a495e49a59c091d"> Example from the lesson </a>
 
-_ You can view the original task using a pdf file inside the project _
+2. <a href="https://stepik.org/lesson/63305/step/14"> Link to the interactive version of the task </a>
+
+_You can view the original task using a pdf file inside the project_
